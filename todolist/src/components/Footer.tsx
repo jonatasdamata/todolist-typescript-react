@@ -1,10 +1,16 @@
-import React from 'react'
+import React from 'react';
+import styles from "./Footer.module.css";
 
-type Props = {}
 
-const Footer = (props: Props) => {
+
+
+const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer className={styles.footer}>
+    <p>
+      <span>React + TS TodoList</span> @2024
+    </p>
+  </footer>
   )
 }
 
