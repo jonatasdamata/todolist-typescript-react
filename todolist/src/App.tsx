@@ -3,11 +3,16 @@ import React from 'react';
 //components 
 import Header from './components/Header';
 import Footer from './components/Footer';
+import TaskForm from './components/TaskForm';
+import TaskList from './components/TaskList';
+
 
 //css
 import styles from "./App.module.css";
-import TaskForm from './components/TaskForm';
-import TaskList from './components/TaskList';
+
+//interface
+import { ITask } from './interfaces/Task';
+
 
 function App() {
   return (
