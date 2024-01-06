@@ -8,7 +8,8 @@ const Footer = () => {
   return (
     <footer className={styles.footer}>
     <p>
-      <span>React + TS TodoList</span> @2024
+      <span>React + TypeScript TodoList</span>
+      <p>Desenvolvido por: Jonatas da Mata</p>
     </p>
   </footer>
   )
